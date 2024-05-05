@@ -18,9 +18,16 @@ let inString = String(v)
 // console.log(null <= 0)
 
 const heros = ["shaktiman","nagraj"];
-console.log(heros)
+// console.log(heros)
 let myObject  =  {
      Name : "Vatsal mishra", age :18
 }
-console.log(myObject)
-console.log(typeof(heros))
+// console.log(myObject)
+// console.log(typeof(heros))
+
+const name = "VatsalMishra27"
+const age = 18
+const course = "CSE"
+
+console.log(name + age + course)
+console.log(`hello my name is ${name},im ${age} old and persuing ${course} from its college`)
